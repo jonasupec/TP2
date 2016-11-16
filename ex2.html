@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>un site</title>
+</head>
+<body>
+<form action="http://www.iut-fbleau.fr/sitebp/post.php" method="post">
+<label for="Nom">Nom</label>
+<input type="text" id="Nom" name="nom" required>
+  <br>
+<label for="prenom">prenom</label>
+<input type="text" id="prenom" name="prenom" required>
+  <br>
+<label for="date de naissance">date de naissance</label>
+<input type="date" id="date de naissance" name="date de naissance" required>
+<br>
+  <label for="Email">Email</label>
+<input type="email" id="Email" name="email" required>
+<br>
+  <label for="code postale">code postale</label>
+<input type="number" maxlenght=5 id="code postale" name="code postale" required>
+  <br>
+<label for="Tel">Portable</label>
+<input type="text" id="portable" name="portable" required>
+  <br>
+<input type="radio" name="gender" value="male" checked> homme<br>
+<input type="radio" name="gender" value="female"> Femme<br>
+  <label for="Semetre">semestre</label>
+  <SELECT name="Semestre" size="1">
+<OPTION>S1
+<OPTION selected>S2 
+<OPTION>S3
+<OPTION>S4
+</SELECT> <BR>
+  niveau en html
+<input type="range" name="niveau en html" min="0" max="10"><br>
+  Message<br>
+  <textarea name="message" id="message" rows="10" cols="50">
+    entrer un message
+  </textarea>
+<input type="reset">
+<input type="submit" name="soumission" value="envoyer" />
+</form>
+</body>
+</html
